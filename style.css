@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+}
+body{
+    background: url(/images/bg.jpg),rgba(0, 0, 0, 0.638);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.567);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.nav-logo{
+    width: 20%;
+}
+.nav-logo img:hover{
+    cursor: pointer;
+}
+.nav-logo img{
+    width: 6rem;
+    padding: 0.2rem;
+    border: 5px solid #d1a068;
+    border-radius: 50%;
+    /* background-color:rgb(19, 226, 81); */
+}
+.nav-link{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link ul li{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.btn input{
+    width: auto;
+    padding: 0.8rem;
+    margin: 1rem 3rem;
+    background-color: #d1a068;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 1px;
+    transition: 0.3s;
+
+}
+.btn input:hover{
+    background-color: #ac7d47;
+    transition: 0.3s;
+
+}
+.bodybg{
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+.bodybg h3{
+    color:#d1a068;
+}
+.bodybg h1{
+    color: white;
+}
+#fontwork{
+    color: #747474;    /* background-color: rgba(255, 255, 255, 0.523); */
+    font-size: 5rem;
+}
+.main-raw{
+    background-color: rgb(255, 255, 255);
+
+}
+.row-1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-1{
+    margin: auto 2rem;;
+}
+.row-2{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7rem;
+    background-color: white;
+}
+.col-2-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.service{
+    background-color: rgb(224, 224, 224);
+    width: 30%;
+    margin: 1.5rem;
+    padding: 1rem;
+
+}
+.service img{
+    /* padding: 5rem; */
+    width: 100%;
+    padding: 2rem;   
+}
+.service2{
+    background-color: rgb(224, 224, 224);
+    width: 30%;
+    margin: 1.5rem;
+    padding: 1rem;
+
+}
+.service2 img{
+    /* padding: 5rem; */
+    width: 100%;
+}
